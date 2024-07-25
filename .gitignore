@@ -1,11 +1,14 @@
+# General #
 HELP.md
+
+# Gradle #
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### STS ###
+# STS #
 .apt_generated
 .classpath
 .factorypath
@@ -17,7 +20,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA #
 .idea
 *.iws
 *.iml
@@ -26,16 +29,17 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### NetBeans ###
+# NetBeans #
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# VS Code #
 .vscode/
-# Java 관련
+
+# Java #
 *.class
 *.jar
 *.war
@@ -44,19 +48,124 @@ out/
 *.ipr
 *.iws
 
-# Spring Boot 관련
+# Spring Boot #
 /target/
 /bin/
 /build/
 *.log
 
-# IntelliJ IDEA 관련
-.idea
-*.iml
-*.ipr
+# IntelliJ #
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/sonarlint/
+.idea/**/sonarIssues.xml
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+.idea/**/mongoSettings.xml
+.idea/replstate.xml
+.idea/sonarlint/
+.idea/sonarqube-community-plugin/
+.idea/codestream.xml
+.idea/httpRequests
+.idea/caches/build_file_checksums.ser
+.idea/azureSettings.xml
+
+# CMake #
+cmake-build-*/
+
+# File-based project format #
 *.iws
 
-# Eclipse 관련
+# IntelliJ #
+out/
+.idea_modules/
+
+# JIRA plugin #
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin #
+.idea/replstate.xml
+
+# SonarLint plugin #
+.idea/sonarlint/
+
+# Crashlytics plugin #
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client #
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file #
+.idea/caches/build_file_checksums.ser
+
+# IntelliJ Patch #
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# Gradle #
+.gradle
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+
+# Java heap dump #
+*.hprof
+
+# macOS #
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# Maven #
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 .project
 .classpath
-.settings/
+
+# Application Properties #
+/src/main/resources/application.properties
