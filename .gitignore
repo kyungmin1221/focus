@@ -1,0 +1,62 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+# Java 관련
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# Spring Boot 관련
+/target/
+/bin/
+/build/
+*.log
+
+# IntelliJ IDEA 관련
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Eclipse 관련
+.project
+.classpath
+.settings/
