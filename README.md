@@ -1,4 +1,6 @@
-# [FOCUS] 축구 게시판 프로젝트 (1인 기획)
+# [FOCUS] 축구 게시판 프로젝트
+<img src="https://github.com/user-attachments/assets/24b0ebb7-6170-487d-bf0b-17c6234dd5c9" alt="focus_logo" width="300"/>
+
 
 # 프로젝트 이름
 
