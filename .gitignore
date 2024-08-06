@@ -168,4 +168,4 @@ buildNumber.properties
 .classpath
 
 # Application Properties #
-/src/main/resources/application.properties
+/src/main/resources/application.yml
